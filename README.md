@@ -22,6 +22,8 @@ Please cite our paper(s) if you find this repository useful. Cite both if you ar
   year={2019},
   publisher={Elsevier}
 }
+```
+```
 @article{cooper2019zero,
   title={Zero-Shot Multi-Speaker Text-To-Speech with State-of-the-art Neural Speaker Embeddings},
   author={Cooper, Erica and Lai, Cheng-I and Yasuda, Yusuke and Fang, Fuming and Wang, Xin and Chen, Nanxin and Yamagishi, Junichi},
@@ -59,5 +61,5 @@ embedding space visualizaiton
 c.f. x-vectors 
 
 # Credits
-Base code written by [Nanxin Chen, Johns Hopkins University](https://github.com/bobchennan) \
-Experiments done by [Cheng-I Lai, MIT](http://people.csail.mit.edu/clai24/) 
+Base code written by [Nanxin Chen](https://github.com/bobchennan), Johns Hopkins University \
+Experiments done by [Cheng-I Lai](http://people.csail.mit.edu/clai24/), MIT
