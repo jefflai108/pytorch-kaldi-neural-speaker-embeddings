@@ -2,5 +2,5 @@
 Neural speaker recognition/verification system based on Kaldi and PyTorch.
 
 # Credits
-Nanxin Chen, Johns Hopkins University \
-Cheng-I Lai, MIT 
+Base code written by Nanxin Chen, Johns Hopkins University \
+Experiments done by Cheng-I Lai, MIT 
