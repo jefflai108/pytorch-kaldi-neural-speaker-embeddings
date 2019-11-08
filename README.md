@@ -3,7 +3,7 @@ A light weight neural speaker embeddings extraction based on Kaldi and PyTorch. 
 The repository serves as a starting point for users to reproduce and experiment several recent advances in speaker recognition literature. 
 Kaldi is used for pre-processing and post-processing and PyTorch is used for training the neural speaker embeddings.
 
-This repository contains PyTorch+Kaldi pipeline to reproduce the core results for: 
+This repository contains a PyTorch+Kaldi pipeline to reproduce the core results for: 
 * [Exploring the Encoding Layer and Loss Function in End-to-End Speaker and Language Recognition System](https://arxiv.org/pdf/1804.05160.pdf)
 * [A Novel Learnable Dictionary Encoding Layer for End-to-End Language Identification](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8462025)
 
