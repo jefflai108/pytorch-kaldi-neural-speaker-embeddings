@@ -5,7 +5,7 @@ Kaldi is used for pre-processing and post-processing and PyTorch is used for tra
 
 This repository contains PyTorch+Kaldi pipeline to reproduce the core results for: 
 * [Exploring the Encoding Layer and Loss Function in End-to-End Speaker and Language Recognition System](https://arxiv.org/pdf/1804.05160.pdf)
-* [A NOVEL LEARNABLE DICTIONARY ENCODING LAYER FOR END-TO-END LANGUAGE IDENTIFICATION](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8462025)
+* [A Novel Learnable Dictionary Encoding Layer for End-to-End Language Identification](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8462025)
 
 With some modifications, you can easily adapt the pipeline for:
 * []()
