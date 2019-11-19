@@ -81,7 +81,6 @@ openh264=1.8.0=hdbcaa40_1000
 openssl=1.1.1d=h7b6447c_1
 pandas=0.25.1=py37he6710b0_0
 pcre=8.43=he6710b0_0
-pillow=6.1.0=py37h34e0f95_0
 pip=19.2.2=py37_0
 protobuf=3.8.0=py37he6710b0_0
 pthread-stubs=0.4=h14c3975_1001
