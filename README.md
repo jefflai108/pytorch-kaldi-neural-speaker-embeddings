@@ -37,16 +37,14 @@ neural speaker embeddings: encoder --> pooling --> classification
 put LDE plot 
 
 # Requirements
-put requirements.txt
-PyTorch 
-Python 
-Kaldi
+`pip install -r requirements.txt`
 
 # Getting Started 
+The bash file `pipeline.sh` contains the 12-stage speaker recognition pipeline, including feature extraction, the neural model training and decoding/evaluation. A more detailed description of each step is described in `pipeline.sh`. To get started, simply run: 
 `./pipeline.sh`
 
 # Datasets 
-VoxCeleb I+II
+The models are trained on [VoxCeleb I+II](http://www.robots.ox.ac.uk/~vgg/data/voxceleb/), which is free for downloads. One can easily adapt `pipeline.sh` for different datasets.
 
 # Pre-Trained Models 
 
