@@ -51,35 +51,31 @@ The models are trained on [VoxCeleb I+II](http://www.robots.ox.ac.uk/~vgg/data/v
 
 # Benchmarking Speaker Verification EERs
 
-|     Embedding name        |   normalization |   pooling type |  train objective  |    EER      |  DCF<sup>min</sup><sub>0.01</sub> |
-| :------------------------:| :-------------: | :------------: | :---------------: | :---------: |  :---------: |
-|    i-vectors              |      no         |     mean       |      EM           |    5.329    |  0.493       |
-|    x-vectors              |      no         |     mean, std  |      Softmax      |    3.298    |  0.343       |
-|    x-vectors<sup>N</sup>  |      yes        |     mean, std  |      Softmax      |    3.213    |  0.342       |
-| [LDE](https://arxiv.org/pdf/1804.05160.pdf)-1
+|     Embedding name       |  dimension | normalization|   pooling type |  train objective   |    EER      |  DCF<sup>min</sup><sub>0.01</sub> |
+| :-----------------------:| :--------: | :----------: | :------------: | :----------------: | :---------: |  :---------: |
+|    i-vectors             |      400   |   no         |     mean       |      EM            |    5.329    |  0.493       |
+|    x-vectors             |      512   |   no         |     mean, std  |      Softmax       |    3.298    |  0.343       |
+|    x-vectors<sup>N</sup> |      512   |   yes        |     mean, std  |      Softmax       |    3.213    |  0.342       |
+|    LDE-1                 |      512   |   no         |     mean       |      Softmax       |    3.415    |  0.366       |
+|    LDE-1<sup>N</sup>     |      512   |   yes        |     mean       |      Softmax       |    3.446    |  0.365       |
+|    LDE-2                 |      512   |   no         |     mean       |      ASoftmax (m=2)|    3.674    |  0.364       |
+|    LDE-2<sup>N</sup>     |      512   |   yes        |     mean       |      ASoftmax (m=2)|    3.664    |  0.386       |
+|    LDE-3                 |      512   |   no         |     mean       |      ASoftmax (m=3)|  **3.033**  |**0.314**     |
+|    LDE-3<sup>N</sup>     |      512   |   yes        |     mean       |      ASoftmax (m=3)|    3.171    |  0.327       |
+|    LDE-4                 |      512   |   no         |     mean       |      ASoftmax (m=4)|    3.112    |  0.315       |
+|    LDE-4<sup>N</sup>     |      512   |   yes        |     mean       |      ASoftmax (m=4)|    3.271    |  0.327       |
+|    LDE-5                 |      256   |   no         |     mean       |      ASoftmax (m=2)|    3.287    |  0.343       |
+|    LDE-5<sup>N</sup>     |      256   |   yes        |     mean       |      ASoftmax (m=2)|    3.367    |  0.351       |
 
+|    LDE-6                 |      200   |   no         |     mean       |      ASoftmax (m=2)|    3.266    |  0.396       |
+|    LDE-6<sup>N</sup>     |      200   |   yes        |     mean       |      ASoftmax (m=2)|    3.266    |  0.396       |
+|    LDE-7                 |      512   |   no         |     mean, std  |      ASoftmax (m=2)|  **3.091**  |**0.303**     |
+|    LDE-7<sup>N</sup>     |      512   |   yes        |     mean, std  |      ASoftmax (m=2)|    3.171    |  0.328       |
 
 - [x] Finish my changes
 - [ ] Push my commits to GitHub
 - [ ] Open a pull request
 
-embed. dim. pl. obj. norm EER DCFmin
-0.01
-
-LDE-1 512 m S 3.415 0.366
-LDE-1N 512 m S 3.446 0.365
-LDE-2 512 m AS(2) 3.674 0.364
-LDE-2N 512 m AS(2) 3.664 0.386
-LDE-3 512 m AS(3) 3.033 0.314
-LDE-3N 512 m AS(3) 3.171 0.327
-LDE-4 512 m AS(4) 3.112 0.315
-LDE-4N 512 m AS(4) 3.271 0.327
-LDE-5 256 m AS(2) 3.287 0.343
-LDE-5N 256 m AS(2) 3.367 0.351
-LDE-6 200 m AS(2) 3.266 0.396
-LDE-6N 200 m AS(2) 3.266 0.396
-LDE-7 512 m, s AS(2) 3.091 0.303
-LDE-7N 512 m, s AS(2) 3.171 0.328
 # Speaker Adaptation for Tacotron2
 embedding space visualizaiton 
 
