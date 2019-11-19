@@ -44,18 +44,18 @@ The bash file `pipeline.sh` contains the 12-stage speaker recognition pipeline, 
 `./pipeline.sh`
 
 # Datasets 
-The models are trained on [VoxCeleb I+II](http://www.robots.ox.ac.uk/~vgg/data/voxceleb/), which is free for downloads. One can easily adapt `pipeline.sh` for different datasets.
+The models are trained on [VoxCeleb I+II](http://www.robots.ox.ac.uk/~vgg/data/voxceleb/), which is free for downloads (the trial lists are also there). One can easily adapt `pipeline.sh` for different datasets.
 
 # Pre-Trained Models 
 
 
 # Benchmarking Speaker Verification EERs
-## A. CPC Model Training 
-|        Embedding name       |   normalization |   pooling type   |  train objective   |    EER    |  
-| :-------------------------: | :-------------: | :------------: | :-------------: | :------------: |
-|           i-vector             |        60       |     7.42M      |      1.6427     |      26.42     |  
-|           i-vector             |        60       |     5.58M      |      1.7818     |      22.48     |
-|           CDCK6             |        30       |     7.33M      |      1.6484     |      28.24     |
+
+|     Embedding name        |   normalization |   pooling type |  train objective  |    EER      |  DCF<sup>min</sup><sub>0.01</sub> |
+| :------------------------:| :-------------: | :------------: | :---------------: | :---------: |  :---------: |
+|    i-vectors              |        []       |     mean       |      EM           |    5.329    |  0.493       |
+|    x-vectors              |        []       |     mean, std  |      Softmax      |    3.298    |  0.343       |
+|    x-vectors<sup>N</sup>  |        [x]      |     mean, std  |      Softmax      |    3.213    |  0.342       |
 
 
 embed. dim. pl. obj. norm EER DCFmin
