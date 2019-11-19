@@ -53,7 +53,7 @@ The models are trained on [VoxCeleb I+II](http://www.robots.ox.ac.uk/~vgg/data/v
 
 |     Embedding name        |   normalization |   pooling type |  train objective  |    EER      |  DCF<sup>min</sup><sub>0.01</sub> |
 | :------------------------:| :-------------: | :------------: | :---------------: | :---------: |  :---------: |
-|    i-vectors              |      - []       |     mean       |      EM           |    5.329    |  0.493       |
+|    i-vectors              |      - [ ]       |     mean       |      EM           |    5.329    |  0.493       |
 |    x-vectors              |      - []       |     mean, std  |      Softmax      |    3.298    |  0.343       |
 |    x-vectors<sup>N</sup>  |      - [x]      |     mean, std  |      Softmax      |    3.213    |  0.342       |
 
