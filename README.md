@@ -56,7 +56,9 @@ The models are trained on [VoxCeleb I+II](http://www.robots.ox.ac.uk/~vgg/data/v
 |    i-vectors              |      - [ ]       |     mean       |      EM           |    5.329    |  0.493       |
 |    x-vectors              |      - []       |     mean, std  |      Softmax      |    3.298    |  0.343       |
 |    x-vectors<sup>N</sup>  |      - [x]      |     mean, std  |      Softmax      |    3.213    |  0.342       |
-
+- [x] Finish my changes
+- [ ] Push my commits to GitHub
+- [ ] Open a pull request
 
 embed. dim. pl. obj. norm EER DCFmin
 0.01
