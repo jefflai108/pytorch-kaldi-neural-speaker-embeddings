@@ -53,18 +53,19 @@ The models are trained on [VoxCeleb I+II](http://www.robots.ox.ac.uk/~vgg/data/v
 
 |     Embedding name        |   normalization |   pooling type |  train objective  |    EER      |  DCF<sup>min</sup><sub>0.01</sub> |
 | :------------------------:| :-------------: | :------------: | :---------------: | :---------: |  :---------: |
-|    i-vectors              |      - [ ]       |     mean       |      EM           |    5.329    |  0.493       |
-|    x-vectors              |      - []       |     mean, std  |      Softmax      |    3.298    |  0.343       |
-|    x-vectors<sup>N</sup>  |      - [x]      |     mean, std  |      Softmax      |    3.213    |  0.342       |
+|    i-vectors              |      no         |     mean       |      EM           |    5.329    |  0.493       |
+|    x-vectors              |      no         |     mean, std  |      Softmax      |    3.298    |  0.343       |
+|    x-vectors<sup>N</sup>  |      yes        |     mean, std  |      Softmax      |    3.213    |  0.342       |
+| [LDE](https://arxiv.org/pdf/1804.05160.pdf)-1
+
+
 - [x] Finish my changes
 - [ ] Push my commits to GitHub
 - [ ] Open a pull request
 
 embed. dim. pl. obj. norm EER DCFmin
 0.01
-i-VecN 400 m EM 5.329 0.493
-x-Vec 512 m, s S 3.298 0.343
-x-VecN 512 m, s S 3.213 0.342
+
 LDE-1 512 m S 3.415 0.366
 LDE-1N 512 m S 3.446 0.365
 LDE-2 512 m AS(2) 3.674 0.364
