@@ -50,8 +50,33 @@ The models are trained on [VoxCeleb I+II](http://www.robots.ox.ac.uk/~vgg/data/v
 
 
 # Benchmarking Speaker Verification EERs
-c.f. x-vectors 
+## A. CPC Model Training 
+|        Embedding name       |   normalization |   pooling type   |  train objective   |    EER    |  
+| :-------------------------: | :-------------: | :------------: | :-------------: | :------------: |
+|           i-vector             |        60       |     7.42M      |      1.6427     |      26.42     |  
+|           i-vector             |        60       |     5.58M      |      1.7818     |      22.48     |
+|           CDCK6             |        30       |     7.33M      |      1.6484     |      28.24     |
 
+
+embed. dim. pl. obj. norm EER DCFmin
+0.01
+i-VecN 400 m EM 5.329 0.493
+x-Vec 512 m, s S 3.298 0.343
+x-VecN 512 m, s S 3.213 0.342
+LDE-1 512 m S 3.415 0.366
+LDE-1N 512 m S 3.446 0.365
+LDE-2 512 m AS(2) 3.674 0.364
+LDE-2N 512 m AS(2) 3.664 0.386
+LDE-3 512 m AS(3) 3.033 0.314
+LDE-3N 512 m AS(3) 3.171 0.327
+LDE-4 512 m AS(4) 3.112 0.315
+LDE-4N 512 m AS(4) 3.271 0.327
+LDE-5 256 m AS(2) 3.287 0.343
+LDE-5N 256 m AS(2) 3.367 0.351
+LDE-6 200 m AS(2) 3.266 0.396
+LDE-6N 200 m AS(2) 3.266 0.396
+LDE-7 512 m, s AS(2) 3.091 0.303
+LDE-7N 512 m, s AS(2) 3.171 0.328
 # Speaker Adaptation for Tacotron2
 embedding space visualizaiton 
 
