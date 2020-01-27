@@ -105,11 +105,11 @@ setuptools=41.0.1=py37_0
 sip=4.18.1=py37hf484d3e_1000
 six=1.12.0=py37_0
 sqlite=3.29.0=h7b6447c_0
-tensorboard=1.14.0=py37hf484d3e_0
-tensorflow=1.14.0=gpu_py37h63f5f00_0
-tensorflow-base=1.14.0=gpu_py37h611c6d2_0
+tensorboard>=1.15.0
+tensorflow>=1.15.0
+tensorflow-base>=1.15.0
 tensorflow-estimator=1.14.0=py_0
-tensorflow-gpu=1.14.0=h0d30ee6_0
+tensorflow-gpu>=1.15.0
 termcolor=1.1.0=py37_1
 tk=8.6.8=hbc83047_0
 torchvision=0.2.1=py_2
