@@ -14,7 +14,7 @@ With some modifications, you can easily adapt the pipeline for:
 * [Margin Matters: Towards More Discriminative Deep Neural Network Embeddings for Speaker Recognition](https://arxiv.org/pdf/1906.07317.pdf)
 * [Spatial Pyramid Encoding with Convex Length Normalization for Text-Independent Speaker Verification](https://arxiv.org/pdf/1906.08333.pdf)
 
-If one wants to go further, take a look at our recent work on [multi-speaker text-to-speech](https://arxiv.org/pdf/1910.10838.pdf), where the same speaker embeddings are employed to model speaker characterisitcs/ in a text-to-speech pipeline. 
+If one wants to go further, take a look at our recent work on [multi-speaker text-to-speech](https://arxiv.org/pdf/1910.10838.pdf), where the same speaker embeddings are employed to model speaker characterisitcs in a text-to-speech system. 
 
 Lastly, kindly cite our paper(s) if you find this repository useful. Cite both if you are kind enough!
 ```
