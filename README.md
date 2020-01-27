@@ -84,9 +84,8 @@ embedding space visualizaiton
 
 # Benchmarking TTS MOS scores
 
-| shit                     | <td colspan=3>triple  <td colspan=3>double 
-|     Embedding name       | train | dev | test | train | dev | test |
-| :-----------------------:| :---: | :-: | :--: | :---: | :-: | :--: |
+|     Embedding name       | Naturalness dev | Naturalness test | Similarity dev | Similarity test |
+| :-----------------------:| :-------------: | :--------------: | :------------: | :-------------: |
 |    vocoded               |  3.51 | 3.41|  3.55|  3.02 | 2.79| 2.82 |
 |    x-vectors<sup>N</sup> |      512   |   yes        |     mean, std  |      Softmax       |    3.213    |  0.342       |
 |    LDE-1                 |      512   |   no         |     mean       |      Softmax       |    3.415    |  0.366       |
