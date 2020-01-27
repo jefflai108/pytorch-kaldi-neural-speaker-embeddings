@@ -2,17 +2,21 @@
 A light weight neural speaker embeddings extraction based on Kaldi and PyTorch. \
 The repository serves as a starting point for users to reproduce and experiment several recent advances in speaker recognition literature. 
 Kaldi is used for pre-processing and post-processing and PyTorch is used for training the neural speaker embeddings.
+I want to note that this repo is not meant for keeping track of state-of-the-art on speaker recognition, and most likely it will be outdated in a few months. 
 
 This repository contains a PyTorch+Kaldi pipeline to reproduce the core results for: 
 * [Exploring the Encoding Layer and Loss Function in End-to-End Speaker and Language Recognition System](https://arxiv.org/pdf/1804.05160.pdf)
 * [A Novel Learnable Dictionary Encoding Layer for End-to-End Language Identification](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8462025)
 
 With some modifications, you can easily adapt the pipeline for:
-* []()
-* []()
-* []()
+* [Angular softmax for short-duration text-independent speaker verification](https://pdfs.semanticscholar.org/93f9/24fa3d9920edc10469b04c90960c03dce856.pdf)
+* [Utterance-level aggregation for speaker recognition in the wild](https://arxiv.org/pdf/1902.10107.pdf)
+* [Margin Matters: Towards More Discriminative Deep Neural Network Embeddings for Speaker Recognition](https://arxiv.org/pdf/1906.07317.pdf)
+* [Spatial Pyramid Encoding with Convex Length Normalization for Text-Independent Speaker Verification](https://arxiv.org/pdf/1906.08333.pdf)
 
-Please cite our paper(s) if you find this repository useful. Cite both if you are kind enough!
+If one wants to go further, take a look at our recent work on [multi-speaker text-to-speech](https://arxiv.org/pdf/1910.10838.pdf), where the same speaker embeddings are employed to model speaker characterisitcs/ in a text-to-speech pipeline. 
+
+Lastly, kindly cite our paper(s) if you find this repository useful. Cite both if you are kind enough!
 ```
 @article{villalba2019state,
   title={State-of-the-art speaker recognition with neural network embeddings in nist sre18 and speakers in the wild evaluations},
@@ -32,7 +36,7 @@ Please cite our paper(s) if you find this repository useful. Cite both if you ar
 }
 ```
 
-One should also check out the very nicely written TensorFlow version by [Yi Lu](http://yiliu.org.cn): https://github.com/mycrazycracy/tf-kaldi-speaker
+One should also check out the very nicely written [TensorFlow version](https://github.com/mycrazycracy/tf-kaldi-speaker) by [Yi Lu](http://yiliu.org.cn).
 
 # Overview
 neural speaker embeddings: encoder --> pooling --> classification 
