@@ -39,9 +39,9 @@ Lastly, kindly cite our paper(s) if you find this repository useful. Cite both i
 One should also check out the very nicely written [TensorFlow version](https://github.com/mycrazycracy/tf-kaldi-speaker) by [Yi Lu](http://yiliu.org.cn).
 
 # Overview
-neural speaker embeddings: encoder --> pooling --> classification 
+Neural speaker embeddings: Encoder --> Pooling --> Classification 
 <p align="center">
- <img src="imgs/LDE-6.png" width="40%">
+ <img src="imgs/LDE-6.png" width="50%">
 </p>
 
 # Requirements
@@ -82,7 +82,7 @@ Due to Youtube's privacy policy, unfortunately I am not allowed to upload pre-tr
 
 # Using Speaker Embeddings for Tacotron2 Speaker Adaptation
 <p align="center">
- <img src="imgs/TTS-4.png" width="40%">
+ <img src="imgs/TTS-4.png" width="60%">
 </p>
 
 # Speaker Embedding Space Visualization
