@@ -41,7 +41,7 @@ One should also check out the very nicely written [TensorFlow version](https://g
 # Overview
 neural speaker embeddings: encoder --> pooling --> classification 
 <p align="center">
- <img src="imgs/LDE-6.pdf" width="40%">
+ <img src="imgs/LDE-6.png" width="40%">
 </p>
 
 # Requirements
@@ -82,7 +82,7 @@ Due to Youtube's privacy policy, unfortunately I am not allowed to upload pre-tr
 
 # Using Speaker Embeddings for Tacotron2 Speaker Adaptation
 <p align="center">
- <img src="imgs/TTS-4.pdf" width="40%">
+ <img src="imgs/TTS-4.png" width="40%">
 </p>
 
 # Speaker Embedding Space Visualization
