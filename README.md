@@ -86,7 +86,16 @@ Due to Youtube's privacy policy, unfortunately I am not allowed to upload pre-tr
 </p>
 
 # Speaker Embedding Space Visualization
-embedding space visualizaiton 
+
+**i-vectors (baseline)**
+<p align="center">
+ <img src="imgs/sid/ivector-vctk-plot/ivector_43873_tsne_2d_plot.png" width="60%">
+</p>
+
+**LDE** 
+<p align="center">
+ <img src="imgs/sid/lde-vctk-plot/resnet_mfcc_3-8_512_32_mean_lde_sqr_asoftmax_m3_43873_tsne_2d_plot.png" width="60%">
+</p>
 
 # Benchmarking TTS MOS scores
 
