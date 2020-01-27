@@ -32,6 +32,8 @@ Please cite our paper(s) if you find this repository useful. Cite both if you ar
 }
 ```
 
+One should also check out the very nicely written TensorFlow version by [Yi Lu](http://yiliu.org.cn): https://github.com/mycrazycracy/tf-kaldi-speaker
+
 # Overview
 neural speaker embeddings: encoder --> pooling --> classification 
 put LDE plot 
