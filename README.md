@@ -78,15 +78,30 @@ Due to Youtube's privacy policy, unfortunately I am not allowed to upload pre-tr
 |    LDE-7                 |      512   |   no         |     mean, std  |      ASoftmax (m=2)|  **3.091**  |**0.303**     |
 |    LDE-7<sup>N</sup>     |      512   |   yes        |     mean, std  |      ASoftmax (m=2)|    3.171    |  0.328       |
 
-- [x] Finish my changes
-- [ ] Push my commits to GitHub
-- [ ] Open a pull request
 
 # Speaker Adaptation for Tacotron2
 embedding space visualizaiton 
 
 # Benchmarking TTS MOS scores
-c.f. x-vectors 
+|                          |      Naturalness   |  Similarity        |
+|     Embedding name       | train | dev | test | train | dev | test |
+| :-----------------------:| :---: | :-: | :--: | :---: | :-: | :--: |
+|    vocoded               |  3.51 | 3.41|  3.55|  3.02 | 2.79| 2.82 |
+|    x-vectors<sup>N</sup> |      512   |   yes        |     mean, std  |      Softmax       |    3.213    |  0.342       |
+|    LDE-1                 |      512   |   no         |     mean       |      Softmax       |    3.415    |  0.366       |
+|    LDE-1<sup>N</sup>     |      512   |   yes        |     mean       |      Softmax       |    3.446    |  0.365       |
+|    LDE-2                 |      512   |   no         |     mean       |      ASoftmax (m=2)|    3.674    |  0.364       |
+|    LDE-2<sup>N</sup>     |      512   |   yes        |     mean       |      ASoftmax (m=2)|    3.664    |  0.386       |
+|    LDE-3                 |      512   |   no         |     mean       |      ASoftmax (m=3)|  **3.033**  |**0.314**     |
+|    LDE-3<sup>N</sup>     |      512   |   yes        |     mean       |      ASoftmax (m=3)|    3.171    |  0.327       |
+|    LDE-4                 |      512   |   no         |     mean       |      ASoftmax (m=4)|    3.112    |  0.315       |
+|    LDE-4<sup>N</sup>     |      512   |   yes        |     mean       |      ASoftmax (m=4)|    3.271    |  0.327       |
+|    LDE-5                 |      256   |   no         |     mean       |      ASoftmax (m=2)|    3.287    |  0.343       |
+|    LDE-5<sup>N</sup>     |      256   |   yes        |     mean       |      ASoftmax (m=2)|    3.367    |  0.351       |
+|    LDE-6                 |      200   |   no         |     mean       |      ASoftmax (m=2)|    3.266    |  0.396       |
+|    LDE-6<sup>N</sup>     |      200   |   yes        |     mean       |      ASoftmax (m=2)|    3.266    |  0.396       |
+|    LDE-7                 |      512   |   no         |     mean, std  |      ASoftmax (m=2)|  **3.091**  |**0.303**     |
+|    LDE-7<sup>N</sup>     |      512   |   yes        |     mean, std  |      ASoftmax (m=2)|    3.171    |  0.328       |
 
 # Credits
 Base code written by [Nanxin Chen](https://github.com/bobchennan), Johns Hopkins University \
