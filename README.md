@@ -40,6 +40,7 @@ One should also check out the very nicely written [TensorFlow version](https://g
 
 # Overview
 Neural speaker embeddings: Encoder --> Pooling --> Classification 
+LDE pooling method illustration:
 <p align="center">
  <img src="imgs/LDE-6.png" width="50%">
 </p>
