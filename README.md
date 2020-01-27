@@ -2,7 +2,7 @@
 **A light weight neural speaker embeddings extraction based on Kaldi and PyTorch.** \
 The repository serves as a starting point for users to reproduce and experiment several recent advances in speaker recognition literature. 
 Kaldi is used for pre-processing and post-processing and PyTorch is used for training the neural speaker embeddings.
-I want to note that this repo is not meant for keeping track of state-of-the-art on speaker recognition, and most likely the models will be considered outdated in a few months (or sooner :(). 
+**I want to note that this repo is not meant for keeping track of state-of-the-art on speaker recognition, and most likely the models will be considered outdated in a few months (or sooner :().** 
 
 This repository contains a PyTorch+Kaldi pipeline to reproduce the core results for: 
 * [Exploring the Encoding Layer and Loss Function in End-to-End Speaker and Language Recognition System](https://arxiv.org/pdf/1804.05160.pdf)
@@ -86,22 +86,22 @@ embedding space visualizaiton
 
 |     Embedding name       | Naturalness dev | Naturalness test | Similarity dev | Similarity test |
 | :-----------------------:| :-------------: | :--------------: | :------------: | :-------------: |
-|    vocoded               |  3.51 | 3.41|  3.55|  3.02 | 2.79| 2.82 |
-|    x-vectors<sup>N</sup> |      512   |   yes        |     mean, std  |      Softmax       |    3.213    |  0.342       |
-|    LDE-1                 |      512   |   no         |     mean       |      Softmax       |    3.415    |  0.366       |
-|    LDE-1<sup>N</sup>     |      512   |   yes        |     mean       |      Softmax       |    3.446    |  0.365       |
-|    LDE-2                 |      512   |   no         |     mean       |      ASoftmax (m=2)|    3.674    |  0.364       |
-|    LDE-2<sup>N</sup>     |      512   |   yes        |     mean       |      ASoftmax (m=2)|    3.664    |  0.386       |
-|    LDE-3                 |      512   |   no         |     mean       |      ASoftmax (m=3)|  **3.033**  |**0.314**     |
-|    LDE-3<sup>N</sup>     |      512   |   yes        |     mean       |      ASoftmax (m=3)|    3.171    |  0.327       |
-|    LDE-4                 |      512   |   no         |     mean       |      ASoftmax (m=4)|    3.112    |  0.315       |
-|    LDE-4<sup>N</sup>     |      512   |   yes        |     mean       |      ASoftmax (m=4)|    3.271    |  0.327       |
-|    LDE-5                 |      256   |   no         |     mean       |      ASoftmax (m=2)|    3.287    |  0.343       |
-|    LDE-5<sup>N</sup>     |      256   |   yes        |     mean       |      ASoftmax (m=2)|    3.367    |  0.351       |
-|    LDE-6                 |      200   |   no         |     mean       |      ASoftmax (m=2)|    3.266    |  0.396       |
-|    LDE-6<sup>N</sup>     |      200   |   yes        |     mean       |      ASoftmax (m=2)|    3.266    |  0.396       |
-|    LDE-7                 |      512   |   no         |     mean, std  |      ASoftmax (m=2)|  **3.091**  |**0.303**     |
-|    LDE-7<sup>N</sup>     |      512   |   yes        |     mean, std  |      ASoftmax (m=2)|    3.171    |  0.328       |
+|    vocoded               |      3.41       |       3.55       |      2.79      |       2.82      |
+|    x-vectors<sup>N</sup> |      3.19       |       3.19       |      1.86      |       2.37      | 
+|    LDE-1                 |      3.16       |       3.21       |    **2.05**    |       2.34      |
+|    LDE-1<sup>N</sup>     |      3.13       |       3.46       |      1.97      |       2.45      |
+|    LDE-2                 |      3.28       |       3.35       |      2.00      |       2.37      |
+|    LDE-2<sup>N</sup>     |      3.19       |       3.33       |      2.00      |       2.35      |
+|    LDE-3                 |      3.24       |     **3.48**     |      1.88      |     **2.46**    |
+|    LDE-3<sup>N</sup>     |      3.16       |       3.33       |      2.00      |       2.37      |
+|    LDE-4                 |      3.10       |       3.29       |      2.00      |       2.31      |
+|    LDE-4<sup>N</sup>     |      3.20       |       3.29       |      1.98      |       2.39      |
+|    LDE-5                 |      3.26       |       3.40       |      1.99      |       2.45      |
+|    LDE-5<sup>N</sup>     |      3.07       |       3.37       |      2.02      |       2.41      |
+|    LDE-6                 |      3.25       |       3.33       |      1.95      |       2.43      |
+|    LDE-6<sup>N</sup>     |    **3.29**     |       3.23       |      1.94      |       2.39      |
+|    LDE-7                 |      3.03       |       3.18       |      1.86      |       2.28      |
+|    LDE-7<sup>N</sup>     |      3.02       |       3.24       |      2.02      |       2.42      |
 
 # Credits
 Base code written by [Nanxin Chen](https://github.com/bobchennan), Johns Hopkins University \
