@@ -39,7 +39,7 @@ Lastly, kindly cite our paper(s) if you find this repository useful. Cite both i
 One should also check out the very nicely written [TensorFlow version](https://github.com/mycrazycracy/tf-kaldi-speaker) by [Yi Lu](http://yiliu.org.cn).
 
 # Overview
-Neural speaker embeddings: Encoder --> Pooling --> Classification 
+Neural speaker embeddings: Encoder --> Pooling --> Classification \
 LDE pooling method illustration:
 <p align="center">
  <img src="imgs/LDE-6.png" width="50%">
