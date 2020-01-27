@@ -2,7 +2,7 @@
 **A light weight neural speaker embeddings extraction based on Kaldi and PyTorch.** \
 The repository serves as a starting point for users to reproduce and experiment several recent advances in speaker recognition literature. 
 Kaldi is used for pre-processing and post-processing and PyTorch is used for training the neural speaker embeddings.
-I want to note that this repo is not meant for keeping track of state-of-the-art on speaker recognition, and most likely it will be outdated in a few months. 
+I want to note that this repo is not meant for keeping track of state-of-the-art on speaker recognition, and most likely the models will be considered outdated in a few months (or sooner :(). 
 
 This repository contains a PyTorch+Kaldi pipeline to reproduce the core results for: 
 * [Exploring the Encoding Layer and Loss Function in End-to-End Speaker and Language Recognition System](https://arxiv.org/pdf/1804.05160.pdf)
@@ -44,6 +44,7 @@ put LDE plot
 
 # Requirements
 `pip install -r requirements.txt`
+Please also [download and properly setup Kaldi](https://kaldi-asr.org/doc/install.html). If you are stuck in this phase, this repository is liekly not for you. 
 
 # Getting Started 
 The bash file `pipeline.sh` contains the 12-stage speaker recognition pipeline, including feature extraction, the neural model training and decoding/evaluation. A more detailed description of each step is described in `pipeline.sh`. To get started, simply run: 
@@ -53,7 +54,7 @@ The bash file `pipeline.sh` contains the 12-stage speaker recognition pipeline, 
 The models are trained on [VoxCeleb I+II](http://www.robots.ox.ac.uk/~vgg/data/voxceleb/), which is free for downloads (the trial lists are also there). One can easily adapt `pipeline.sh` for different datasets.
 
 # Pre-Trained Models 
-
+Due to Youtube's privacy policy, unfortunately I am not allowed to upload pre-trained models for VoxCeleb I+II. 
 
 # Benchmarking Speaker Verification EERs
 
