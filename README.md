@@ -83,7 +83,6 @@ Due to Youtube's privacy policy, unfortunately I am not allowed to upload pre-tr
 embedding space visualizaiton 
 
 # Benchmarking TTS MOS scores
-|                          |      Naturalness   |  Similarity        |
 |     Embedding name       | train | dev | test | train | dev | test |
 | :-----------------------:| :---: | :-: | :--: | :---: | :-: | :--: |
 |    vocoded               |  3.51 | 3.41|  3.55|  3.02 | 2.79| 2.82 |
