@@ -85,7 +85,7 @@ Due to Youtube's privacy policy, unfortunately I am not allowed to upload pre-tr
  <img src="imgs/TTS-4.png" width="60%">
 </p>
 
-# Speaker Embedding Space Visualization
+# Speaker Embedding Space Visualization (cluster by speakers)
 
 **i-vectors (baseline)**
 <p align="center">
