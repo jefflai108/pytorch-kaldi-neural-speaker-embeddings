@@ -1,5 +1,5 @@
 # pytorch-kaldi-neural-speaker-embeddings
-A light weight neural speaker embeddings extraction based on Kaldi and PyTorch. \
+**A light weight neural speaker embeddings extraction based on Kaldi and PyTorch.** \
 The repository serves as a starting point for users to reproduce and experiment several recent advances in speaker recognition literature. 
 Kaldi is used for pre-processing and post-processing and PyTorch is used for training the neural speaker embeddings.
 I want to note that this repo is not meant for keeping track of state-of-the-art on speaker recognition, and most likely it will be outdated in a few months. 
