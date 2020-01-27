@@ -40,7 +40,9 @@ One should also check out the very nicely written [TensorFlow version](https://g
 
 # Overview
 neural speaker embeddings: encoder --> pooling --> classification 
-put LDE plot 
+<p align="center">
+ <img src="imgs/LDE-6.pdf" width="40%">
+</p>
 
 # Requirements
 `pip install -r requirements.txt`
@@ -78,8 +80,12 @@ Due to Youtube's privacy policy, unfortunately I am not allowed to upload pre-tr
 |    LDE-7                 |      512   |   no         |     mean, std  |      ASoftmax (m=2)|  **3.091**  |**0.303**     |
 |    LDE-7<sup>N</sup>     |      512   |   yes        |     mean, std  |      ASoftmax (m=2)|    3.171    |  0.328       |
 
+# Using Speaker Embeddings for Tacotron2 Speaker Adaptation
+<p align="center">
+ <img src="imgs/TTS-4.pdf" width="40%">
+</p>
 
-# Speaker Adaptation for Tacotron2
+# Speaker Embedding Space Visualization
 embedding space visualizaiton 
 
 # Benchmarking TTS MOS scores
